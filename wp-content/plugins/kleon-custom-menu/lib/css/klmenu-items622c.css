@@ -1,0 +1,29 @@
+.nav-primary .genesis-nav-menu .klmenu-items {}
+
+.nav-primary .genesis-nav-menu .klmenu-items a {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	padding: 0 10px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.nav-primary .genesis-nav-menu .klmenu-items a:hover,
+.nav-primary .genesis-nav-menu .klmenu-items a:focus {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.nav-primary .genesis-nav-menu .klmenu-items a span {
+	position: relative;
+	top: -4px;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.nav-primary .genesis-nav-menu .klmenu-items {
+		padding: 10px 0 20px 10px;
+	}
+
+}
